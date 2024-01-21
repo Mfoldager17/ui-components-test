@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .centerWrap {
+        @apply flex flex-col place-content-center justify-center items-center flex-wrap text-center;
+    }
+
+    .cardColor {
+        @apply from-slate-400 via-white to-slate-400 bg-gradient-to-t;
+    }
+}
